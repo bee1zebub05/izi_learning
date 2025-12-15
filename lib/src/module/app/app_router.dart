@@ -1,7 +1,7 @@
 import 'package:auto_route/auto_route.dart';
 import 'package:flutter/widgets.dart';
 import 'package:injectable/injectable.dart';
-import 'package:learning/src/module/foodpage/food_page.dart';
+import 'package:learning/src/module/foodpage/presentation/food_page.dart';
 import 'splash_page.dart';
 
 part 'app_router.gr.dart';

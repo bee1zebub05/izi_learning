@@ -218,6 +218,14 @@ class $AssetsIconsGen {
   /// File path: assets/icons/ic_share.svg
   SvgGenImage get icShare => const SvgGenImage('assets/icons/ic_share.svg');
 
+  /// File path: assets/icons/ic_shopping_cart.svg
+  SvgGenImage get icShoppingCart =>
+      const SvgGenImage('assets/icons/ic_shopping_cart.svg');
+
+  /// File path: assets/icons/ic_shopping_cart1.svg
+  SvgGenImage get icShoppingCart1 =>
+      const SvgGenImage('assets/icons/ic_shopping_cart1.svg');
+
   /// File path: assets/icons/ic_show_password.svg
   SvgGenImage get icShowPassword =>
       const SvgGenImage('assets/icons/ic_show_password.svg');
@@ -314,6 +322,14 @@ class $AssetsIconsGen {
   SvgGenImage get icThreedot =>
       const SvgGenImage('assets/icons/ic_threedot.svg');
 
+  /// File path: assets/icons/ic_transaction_history.svg
+  SvgGenImage get icTransactionHistory =>
+      const SvgGenImage('assets/icons/ic_transaction_history.svg');
+
+  /// File path: assets/icons/ic_transaction_history1.svg
+  SvgGenImage get icTransactionHistory1 =>
+      const SvgGenImage('assets/icons/ic_transaction_history1.svg');
+
   /// File path: assets/icons/ic_unchoose.svg
   SvgGenImage get icUnchoose =>
       const SvgGenImage('assets/icons/ic_unchoose.svg');
@@ -338,6 +354,10 @@ class $AssetsIconsGen {
 
   /// File path: assets/icons/ic_xls.svg
   SvgGenImage get icXls => const SvgGenImage('assets/icons/ic_xls.svg');
+
+  /// File path: assets/icons/icon_location_marker.svg
+  SvgGenImage get iconLocationMarker =>
+      const SvgGenImage('assets/icons/icon_location_marker.svg');
 
   /// List of all assets
   List<SvgGenImage> get values => [
@@ -399,6 +419,8 @@ class $AssetsIconsGen {
         icSecurityQuestion,
         icSetting,
         icShare,
+        icShoppingCart,
+        icShoppingCart1,
         icShowPassword,
         icSignature,
         icSinglePage,
@@ -424,13 +446,16 @@ class $AssetsIconsGen {
         icTermOfUse,
         icText,
         icThreedot,
+        icTransactionHistory,
+        icTransactionHistory1,
         icUnchoose,
         icUndefinedFile,
         icUnlock,
         icUnshowPassword,
         icVersion,
         icWatermark,
-        icXls
+        icXls,
+        iconLocationMarker
       ];
 }
 
