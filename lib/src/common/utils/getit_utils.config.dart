@@ -15,6 +15,7 @@ import 'package:learning/src/common/theme/default_text_theme.dart' as _i535;
 import 'package:learning/src/common/utils/logger.dart' as _i132;
 import 'package:learning/src/core/datasources/remote/module/api_module.dart'
     as _i389;
+import 'package:learning/src/module/app/app_router.dart' as _i466;
 import 'package:talker_flutter/talker_flutter.dart' as _i207;
 
 extension GetItInjectableX on _i174.GetIt {
@@ -32,6 +33,7 @@ extension GetItInjectableX on _i174.GetIt {
     final apiModule = _$ApiModule();
     gh.singleton<_i535.DefaultTextTheme>(() => _i535.DefaultTextTheme());
     gh.singleton<_i207.Talker>(() => loggerModule.talker());
+    gh.singleton<_i466.AppRouter>(() => _i466.AppRouter());
     gh.factory<String>(
       () => apiModule.apiUrl,
       instanceName: 'apiUrl',

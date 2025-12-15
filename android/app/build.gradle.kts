@@ -5,23 +5,30 @@ plugins {
     id("dev.flutter.flutter-gradle-plugin")
 }
 
+dependencies {
+    // ... các dependency khác
+    implementation ("androidx.documentfile:documentfile:1.0.1")
+    // tuỳ chọn (hay dùng): core-ktx
+    implementation ("androidx.core:core-ktx:1.10.1")
+}
+
 android {
-    namespace = "com.example.learning"
-    compileSdk = flutter.compileSdkVersion
-    ndkVersion = flutter.ndkVersion
+    namespace = "com.fau.pdf_converter"
+    compileSdk = 36
+    ndkVersion = "27.3.13750724"
 
     compileOptions {
-        sourceCompatibility = JavaVersion.VERSION_17
-        targetCompatibility = JavaVersion.VERSION_17
+        sourceCompatibility = JavaVersion.VERSION_11
+        targetCompatibility = JavaVersion.VERSION_11
     }
 
     kotlinOptions {
-        jvmTarget = JavaVersion.VERSION_17.toString()
+        jvmTarget = JavaVersion.VERSION_11.toString()
     }
 
     defaultConfig {
         // TODO: Specify your own unique Application ID (https://developer.android.com/studio/build/application-id.html).
-        applicationId = "com.example.learning"
+        applicationId = "com.fau.pdf_converter"
         // You can update the following values to match your application needs.
         // For more information, see: https://flutter.dev/to/review-gradle-config.
         minSdk = flutter.minSdkVersion
