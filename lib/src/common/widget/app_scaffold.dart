@@ -93,7 +93,7 @@ class AppScaffold extends StatelessWidget {
           decoration: BoxDecoration(
             image: backgroundImage,
             color:
-                useBackgroundImage ? null : backgroundColor ?? ColorName.white,
+                useBackgroundImage ? null : backgroundColor ?? ColorName.grayBackground,
           ),
           child: Scaffold(
             resizeToAvoidBottomInset: resizeToAvoidBottomInset,
@@ -114,13 +114,7 @@ class AppScaffold extends StatelessWidget {
                           leadingWidth: hasBackButton ? leadingWidth.w : 0,
                           leading: Container(
                             margin: EdgeInsets.only(left: 16.w),
-                            decoration:
-                                hasBackButton
-                                    ? BoxDecoration(
-                                      color: backButtonColor ?? ColorName.gray97,
-                                      shape: BoxShape.circle,
-                                    )
-                                    : null,
+                            
                             child: Center(
                               child: GestureDetector(
                                 onTap:
@@ -137,8 +131,8 @@ class AppScaffold extends StatelessWidget {
                                           padding:
                                               leadingPadding ?? EdgeInsets.zero,
                                           child: Icon(
-                                            Icons.arrow_back_ios_new_rounded,
-                                            color: leadingColor ?? Colors.white,
+                                            Icons.arrow_back_rounded,
+                                            color: leadingColor ?? Colors.black,
                                             size: 24.sp,
                                           ),
                                         )

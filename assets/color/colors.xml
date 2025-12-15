@@ -21,12 +21,14 @@
     <color name="redFF7">#FF7976</color>
    
     <color name="redFile">#FF5562</color>
+    <color name="redLight">#FFF4F1</color>
+
     <color name="blueFile">#4881EF</color>
     <color name="orangeFile">#FF8E27</color>
     <color name="greenFile">#2BB6A9</color>
     <color name="yellowFile">#FFC107</color>
 
-    <color name="grayBackground">#F3F5FB</color>
+    <color name="grayBackground">#F6F6F7</color>
 
     <color name="buttonBlue">#546AFE</color>
     
@@ -35,7 +37,7 @@
     <color name="blueIcon">#5269FF</color>
     <color name="milkIcon">#F0F4FF</color>
     
-    <color name="grayText">#B1B7BE</color>
+    <color name="grayText">#A4A2A2</color>
 
     <color name="grayTextBackGround">#A6AFBC</color>
 </resources> 

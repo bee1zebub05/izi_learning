@@ -6,7 +6,7 @@ class UIConst {
   static const double defaultBorderWidth = 1.0;
   static const double defaultFontSize = 14;
   static const double mediumFontSize = 16;
-  static const double horizontalPadding = 16;
+  static const double horizontalPadding = 14;
   static const double verticalPadding = 8;
   static const double defaultPadding = 30;
   static const double defaultItemSize = 100;

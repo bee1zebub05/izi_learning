@@ -43,8 +43,8 @@ class ColorName {
   /// Color: #BCBCD3
   static const Color grayBC = Color(0xFFBCBCD3);
 
-  /// Color: #F3F5FB
-  static const Color grayBackground = Color(0xFFF3F5FB);
+  /// Color: #F6F6F7
+  static const Color grayBackground = Color(0xFFF6F6F7);
 
   /// Color: #C4C4C4
   static const Color grayC4 = Color(0xFFC4C4C4);
@@ -55,8 +55,8 @@ class ColorName {
   /// Color: #748090
   static const Color grayIconV2 = Color(0xFF748090);
 
-  /// Color: #B1B7BE
-  static const Color grayText = Color(0xFFB1B7BE);
+  /// Color: #A4A2A2
+  static const Color grayText = Color(0xFFA4A2A2);
 
   /// Color: #A6AFBC
   static const Color grayTextBackGround = Color(0xFFA6AFBC);
@@ -81,6 +81,9 @@ class ColorName {
 
   /// Color: #FF5562
   static const Color redFile = Color(0xFFFF5562);
+
+  /// Color: #FFF4F1
+  static const Color redLight = Color(0xFFFFF4F1);
 
   /// Color: #FFFFFF
   static const Color white = Color(0xFFFFFFFF);
